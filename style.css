@@ -1,0 +1,160 @@
+/*l'étoile désign tout le contenu*/
+*{
+margin: 80;
+padding:80;
+box-sizing: border-box;
+font-weight:normal;
+font: size 30px;
+font-family:sans-serif;
+text-decoration: none;
+}
+.cssmenu{display:flex;
+    justify-content:space-between;
+    text-decoration :none;
+    font-family:sans-serif;
+    text-decoration:none;
+}
+ul{
+    display:flex;
+gap:90px;
+list-style: none;
+align-items: center;
+text-decoration:none;
+}
+h1{
+    font-weight: bold;
+    color: #DF6951;
+font-size: 25px;
+}
+.boutonSU{
+    padding: 10px;
+    display:inline-block;
+    border-color: black;
+    border-style: solid;
+    border-radius:  10px;
+    box-sizing: border-box;
+    border-width: 1px;
+
+}
+body {
+    background: url('Decore.png'),url('Ellipse 8.png');
+    background-repeat:no-repeat, no-repeat;
+    background-position:top right, top left;
+}
+h2,h2 span{
+    font-weight: bold;
+    font-size: 84px;
+color:#181E4B
+
+}
+
+h2 span {
+    position: relative;
+}
+
+h2 span img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+.texte{
+    margin: 60px;
+    width: 40%;
+
+}
+
+h3{
+font-size: 16px;
+color:#5E6282 ;
+margin: 25px;
+
+}
+h4{
+    padding: 10px;
+    display:inline-block;
+    border-color: black;
+    border-style: solid;
+    border-radius:  10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #F1A501;
+    border-color: #F1A501 ;
+    color:white;
+}
+h5{
+    font-size: 17px;
+    color:#5E6282 ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h5 span img{
+    position:absolute;
+    left: 10px;
+    top:0;
+
+}
+.page{
+
+    display:flex;
+}
+
+.trait{display: flex;
+justify-content: flex-start;
+padding-top: 10px;
+}
+
+.plane1{display: flex;
+
+}
+
+.image{
+    padding: 17px;
+ 
+}
+
+.traveller {
+    width: 60%;
+}
+
+.traveller img  {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.point{
+    display:flex;
+    bottom:0px;
+    position:absolute;
+}
+
+.titrpage2{
+    font-size: 18px;
+    font-style: bold;
+    justify-content: center;
+    margin-top: 101px;
+     margin-left: 700px;
+} 
+
+.titr{
+    padding-top: 14px;
+    justify-content: center;
+    font-size: 50px;
+    font-size: bold;
+    margin-left:  500px;
+}
+.Services{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;
+    margin-left:  237px;
+
+}
